@@ -37,3 +37,5 @@ spring:
   #静态资源路径
   mvc:
     static-path-pattern: /static/**
+download: #新增的限速功能
+  speed-limit: 1048576  # 1MB/s，单位字节。可修改为其他值如524288（512KB/s）
